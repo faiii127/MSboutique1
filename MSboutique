@@ -3,17 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Butik Cantika</title>
+  <title>MSboutique</title>
   <style>
     body {font-family: Arial, sans-serif; margin: 0; padding: 0;}
     header {background: pink; padding: 15px; text-align: center;}
     nav a {margin: 0 10px; text-decoration: none; color: white; font-weight: bold;}
-    .hero {background: url('butik.jpg') center/cover; color: white; text-align: center; padding: 80px 20px;}
+    .hero {
+  background: url('https://media.igram.world/get?__sig=BYlwADaeoFm0yhHK6GhRsQ&__expires=1759542179&uri=https%3A%2…') center/cover no-repeat;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 80px 20px;
+}
+
     .produk {display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; padding: 20px;}
-    .card {border: 1px solid #ddd; border-radius: 8px; padding: 10px; text-align: center;}
+    .card {border: 1px solid #059cb0; border-radius: 8px; padding: 10px; text-align: center;}
     .card img {max-width: 100%; border-radius: 8px;}
     .kontak {text-align: center; padding: 20px;}
-    footer {background: #333; color: white; text-align: center; padding: 10px;}
+    footer {background: #fabfca; color: rgb(0, 0, 0); text-align: center; padding: 10px;}
     button {background: pink; border: none; padding: 10px 15px; margin: 5px; border-radius: 5px; cursor: pointer;}
   </style>
 </head>
@@ -35,29 +41,33 @@
 
   <section id="koleksi" class="produk">
     <div class="card">
-      <img src="produk1.jpg" alt="Produk 1">
-      <h3>Dress Floral</h3>
-      <p>Rp 250.000</p>
+      <img src="C:\Users\ASUS\Downloads\539265986_18074902409046210_3705356087086540635_n..jpg" alt="Produk 1">
     </div>
     <div class="card">
-      <img src="produk2.jpg" alt="Produk 2">
-      <h3>Blouse Satin</h3>
-      <p>Rp 180.000</p>
+      <img src="C:\Users\ASUS\Downloads\539957058_18075003167046210_3563827131641995038_n..jpg" alt="Produk 2">
     </div>
     <div class="card">
-      <img src="produk3.jpg" alt="Produk 3">
-      <h3>Kebaya Modern</h3>
-      <p>Rp 400.000</p>
+      <img src="C:\Users\ASUS\Downloads\541937081_18075369485046210_6210554836971686237_n..jpg" alt="Produk 3">
     </div>
+    <div class="card">
+        <img src="C:\Users\ASUS\Downloads\540168521_18075370175046210_6162859422325991366_n..jpg" alt="Produk 4">
+        </div>
+      <div class="card">
+        <img src="C:\Users\ASUS\Downloads\540578821_18075371360046210_6052304571153109962_n..jpg" alt="Produk 4">
+      </div>
   </section>
 
   <section id="tentang">
     <h2 style="text-align:center;">Tentang Kami</h2>
     <p style="padding: 0 20px; text-align:center;">
-      Butik Cantika hadir dengan koleksi busana elegan dan berkualitas tinggi
-      untuk mendukung gaya hidup modern wanita Indonesia.
+        MSboutique menghadirkan koleksi busana modern, elegan, dan nyaman dengan kualitas terbaik 
+        untuk mendukung penampilan stylish wanita Indonesia di setiap kesempatan.
+    </p>
+    <p style="text-align:center; font-style:italic; color:gray;">
+        FashionMaker ✨
     </p>
   </section>
+  
 
   <section id="kontak" class="kontak">
     <h2>Hubungi Kami</h2>
@@ -70,3 +80,4 @@
   </footer>
 </body>
 </html>
+
