@@ -69,5 +69,5 @@ MSboutique/
 
 ## 👗 Tentang
 
-Dibuat oleh **[Nama Pengembang / Mahasiswa]**
+Dibuat oleh **[David Marxsell Mahmudji Rifai]**
 Proyek ini bertujuan untuk menampilkan contoh website butik wanita modern yang elegan, responsif, dan mudah dikembangkan.
